@@ -7,6 +7,7 @@ server:
     key-store-password: 123456
     key-store-type: PKCS12
     key-alias: fta
+    client-auth: none #need 需要客户端验证证书；none客户端可以忽略证书
 
 
 limit:
